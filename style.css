@@ -15,3 +15,11 @@ padding: 4vw 0;
         min-height: 500px;
     }
 }
+
+.tabs .indicator {
+    background-color: lightblue;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background: transparent;
+}
